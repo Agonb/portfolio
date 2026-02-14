@@ -27,7 +27,7 @@ export const siteConfig = {
 };
 
 export const heroImages = {
-  portrait: "https://framerusercontent.com/images/hTJFfVQ00Ud05v1HWBNG9uiEQ.jpg",
+  portrait: "/images/portrait-1.jpg",
 };
 
 export const approaches = [
@@ -53,7 +53,7 @@ export const projects = [
     slug: "seventy-seven",
     title: "Seventy Seven",
     category: "Portfolio",
-    image: "https://framerusercontent.com/images/2rZUJpEMzVy9kRIUJfbHAdxRhI.jpg",
+    image: "/images/project-1.jpg",
     year: "2022",
     client: "Clive Quinn",
     type: "Portfolio",
@@ -67,15 +67,15 @@ export const projects = [
       concept: "It embraces a clean, minimalistic layout that puts the spotlight on visual storytelling, allowing designers, photographers, and creatives to present their work with clarity and elegance.",
     },
     images: [
-      "https://framerusercontent.com/images/2rZUJpEMzVy9kRIUJfbHAdxRhI.jpg",
-      "https://framerusercontent.com/images/qDqh2FqGHDmJC5FLbfOTXMVPjc.jpg",
+      "/images/project-1.jpg",
+      "/images/project-2.jpg",
     ],
   },
   {
     slug: "scrambler",
     title: "Scrambler",
     category: "Photography",
-    image: "https://framerusercontent.com/images/qDqh2FqGHDmJC5FLbfOTXMVPjc.jpg",
+    image: "/images/project-2.jpg",
     year: "2023",
     client: "Auto Studio",
     type: "Photography",
@@ -89,14 +89,14 @@ export const projects = [
       concept: "Blending automotive photography with street culture aesthetics.",
     },
     images: [
-      "https://framerusercontent.com/images/qDqh2FqGHDmJC5FLbfOTXMVPjc.jpg",
+      "/images/project-2.jpg",
     ],
   },
   {
     slug: "zudio-garage",
     title: "Zudio Garage®",
     category: "Business",
-    image: "https://framerusercontent.com/images/yrN0GT4JUMGNgNmvp60Xv7OE1s.jpg",
+    image: "/images/project-3.jpg",
     year: "2023",
     client: "Zudio Inc.",
     type: "Business",
@@ -110,14 +110,14 @@ export const projects = [
       concept: "Merging garage culture with premium design sensibility.",
     },
     images: [
-      "https://framerusercontent.com/images/yrN0GT4JUMGNgNmvp60Xv7OE1s.jpg",
+      "/images/project-3.jpg",
     ],
   },
   {
     slug: "flakestake",
     title: "Flakestake",
     category: "Marketplace",
-    image: "https://framerusercontent.com/images/bw3cVVKSr2039LjR1RUC2dkdQ.jpg",
+    image: "/images/project-4.jpg",
     year: "2024",
     client: "Flakestake Ltd",
     type: "Marketplace",
@@ -131,14 +131,14 @@ export const projects = [
       concept: "Making digital commerce feel personal and curated.",
     },
     images: [
-      "https://framerusercontent.com/images/bw3cVVKSr2039LjR1RUC2dkdQ.jpg",
+      "/images/project-4.jpg",
     ],
   },
   {
     slug: "rural-arena",
     title: "Rural Arena",
     category: "Web Design",
-    image: "https://framerusercontent.com/images/hTJFfVQ00Ud05v1HWBNG9uiEQ.jpg",
+    image: "/images/project-5.jpg",
     year: "2024",
     client: "Rural Arena",
     type: "Web Design",
@@ -152,7 +152,7 @@ export const projects = [
       concept: "Digital design that breathes like the outdoors.",
     },
     images: [
-      "https://framerusercontent.com/images/hTJFfVQ00Ud05v1HWBNG9uiEQ.jpg",
+      "/images/project-5.jpg",
     ],
   },
 ];
@@ -251,19 +251,19 @@ export const testimonials = [
   {
     name: "Rick O'connell",
     role: "Programmer, Microsoft",
-    image: "https://framerusercontent.com/images/hTJFfVQ00Ud05v1HWBNG9uiEQ.jpg",
+    image: "/images/project-5.jpg",
     quote: "I was amazed by how intuitive and user-friendly everything felt. It's clear their designers obsess over every pixel and transition to create experiences that delight.",
   },
   {
     name: "Kate Mccalilster",
     role: "Home Advisor, Apple",
-    image: "https://framerusercontent.com/images/yrN0GT4JUMGNgNmvp60Xv7OE1s.jpg",
+    image: "/images/project-3.jpg",
     quote: "With Grey's user-friendly approach, our sales team can now work smarter, not harder. Deal tracking, reports, traffic - it's all automated and accessible in one place.",
   },
   {
     name: "Anne Weying",
     role: "Cloud Sales Executive",
-    image: "https://framerusercontent.com/images/bw3cVVKSr2039LjR1RUC2dkdQ.jpg",
+    image: "/images/project-4.jpg",
     quote: "We've seen increase in site traffic, lead generation, and sales. I can't recommend Greyola enough. He truly transformed our website and design!",
   },
 ];
@@ -348,18 +348,18 @@ export const pricing = [
 ];
 
 export const galleryImages = [
-  "https://framerusercontent.com/images/yrN0GT4JUMGNgNmvp60Xv7OE1s.jpg",
-  "https://framerusercontent.com/images/2rZUJpEMzVy9kRIUJfbHAdxRhI.jpg",
-  "https://framerusercontent.com/images/qDqh2FqGHDmJC5FLbfOTXMVPjc.jpg",
-  "https://framerusercontent.com/images/bw3cVVKSr2039LjR1RUC2dkdQ.jpg",
-  "https://framerusercontent.com/images/hTJFfVQ00Ud05v1HWBNG9uiEQ.jpg",
+  "/images/project-3.jpg",
+  "/images/project-1.jpg",
+  "/images/project-2.jpg",
+  "/images/project-4.jpg",
+  "/images/project-5.jpg",
 ];
 
 export const voiceImages = [
-  "https://framerusercontent.com/images/2rZUJpEMzVy9kRIUJfbHAdxRhI.jpg",
-  "https://framerusercontent.com/images/yrN0GT4JUMGNgNmvp60Xv7OE1s.jpg",
-  "https://framerusercontent.com/images/hTJFfVQ00Ud05v1HWBNG9uiEQ.jpg",
-  "https://framerusercontent.com/images/qDqh2FqGHDmJC5FLbfOTXMVPjc.jpg",
-  "https://framerusercontent.com/images/bw3cVVKSr2039LjR1RUC2dkdQ.jpg",
-  "https://framerusercontent.com/images/hTJFfVQ00Ud05v1HWBNG9uiEQ.jpg",
+  "/images/project-1.jpg",
+  "/images/project-3.jpg",
+  "/images/project-5.jpg",
+  "/images/project-2.jpg",
+  "/images/project-4.jpg",
+  "/images/project-5.jpg",
 ];
