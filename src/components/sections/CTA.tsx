@@ -17,7 +17,14 @@ export default function CTA() {
           >
             {/* Main Heading */}
             <motion.h2
-              className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-white mb-12 uppercase tracking-tight leading-tight"
+              className="text-white mb-12 uppercase"
+              style={{ 
+                fontFamily: '"Clash Display", system-ui, sans-serif',
+                fontSize: '40px',
+                fontWeight: 600,
+                lineHeight: '30px',
+                letterSpacing: '-1.3px'
+              }}
               variants={fadeInUp}
               custom={0.2}
             >
@@ -32,7 +39,12 @@ export default function CTA() {
             >
               <Link
                 to="/contact"
-                className="inline-flex items-center space-x-4 bg-white text-black px-8 py-6 rounded-full font-bold text-lg hover:bg-[#e8e8e8] transition-colors duration-300 group"
+                className="inline-flex items-center space-x-4 bg-white text-black px-8 py-6 rounded-full hover:bg-[#e8e8e8] transition-colors duration-300 group"
+                style={{ 
+                  fontFamily: '"Inter Display", system-ui, sans-serif',
+                  fontSize: '18px',
+                  fontWeight: 500
+                }}
               >
                 <span>CONTACT NOW</span>
                 <svg

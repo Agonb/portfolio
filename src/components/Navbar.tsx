@@ -30,7 +30,12 @@ export default function Navbar() {
       <div className="px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Left: Live Clock */}
-          <div className="text-[#e8e8e8] font-mono text-sm tracking-wider">
+          <div className="text-[#e8e8e8] font-mono tracking-wider"
+               style={{ 
+                 fontFamily: '"Inter Display", system-ui, sans-serif',
+                 fontSize: '12px',
+                 fontWeight: 400
+               }}>
             {time}
           </div>
 
@@ -47,7 +52,12 @@ export default function Navbar() {
           {/* Right: Contact Button */}
           <Link
             to="/contact"
-            className="px-4 py-2 border border-[#222222] rounded-full text-[#e8e8e8] text-sm font-medium hover:border-white hover:bg-white/5 transition-all duration-300"
+            className="px-4 py-2 border border-[#222222] rounded-full text-[#e8e8e8] hover:border-white hover:bg-white/5 transition-all duration-300"
+            style={{ 
+              fontFamily: '"Inter Display", system-ui, sans-serif',
+              fontSize: '12px',
+              fontWeight: 400
+            }}
           >
             CONTACT
           </Link>

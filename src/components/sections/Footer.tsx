@@ -18,7 +18,14 @@ export default function Footer() {
         >
           {/* Large Brand Text */}
           <motion.h2
-            className="text-6xl md:text-8xl lg:text-9xl font-black text-white mb-12 uppercase tracking-tight"
+            className="text-white mb-12 uppercase"
+            style={{ 
+              fontFamily: '"Clash Display", system-ui, sans-serif',
+              fontSize: '50px',
+              fontWeight: 600,
+              lineHeight: '40px',
+              letterSpacing: '-1px'
+            }}
             variants={fadeInUp}
             custom={0.2}
           >
@@ -32,15 +39,24 @@ export default function Footer() {
             custom={0.4}
           >
             {/* Copyright */}
-            <div className="text-[#888888] text-sm mb-4 md:mb-0">
+            <div className="text-[#888888] mb-4 md:mb-0"
+                 style={{ 
+                   fontFamily: '"Inter Display", system-ui, sans-serif',
+                   fontSize: '12px',
+                   fontWeight: 400
+                 }}>
               ©2024 MANDRO DESIGN
             </div>
 
             {/* Back to Top */}
             <button
               onClick={scrollToTop}
-              className="flex items-center space-x-2 text-[#888888] hover:text-white transition-colors duration-300 text-sm uppercase tracking-wider group"
-            >
+              className="flex items-center space-x-2 text-[#888888] hover:text-white transition-colors duration-300 uppercase tracking-wider group"
+              style={{ 
+                fontFamily: '"Inter Display", system-ui, sans-serif',
+                fontSize: '12px',
+                fontWeight: 400
+              }}>
               <span>Back To Top</span>
               <svg
                 width="16"

@@ -18,15 +18,32 @@ export default function About() {
           >
             {/* Section Label */}
             <div className="mb-8">
-              <div className="text-[#888888] text-sm uppercase tracking-widest mb-2">
+              <div className="text-[#888888] uppercase tracking-widest mb-2"
+                   style={{ 
+                     fontFamily: '"Inter Display", system-ui, sans-serif',
+                     fontSize: '12px',
+                     fontWeight: 400
+                   }}>
                 //Who Am I
               </div>
-              <div className="text-[#888888] text-lg">Since 2000</div>
+              <div className="text-[#888888]"
+                   style={{ 
+                     fontFamily: '"Inter Display", system-ui, sans-serif',
+                     fontSize: '16px',
+                     fontWeight: 500
+                   }}>Since 2000</div>
             </div>
 
             {/* Main Heading */}
             <motion.h2
-              className="text-4xl md:text-5xl lg:text-6xl font-black text-white mb-8 uppercase tracking-tight leading-tight"
+              className="text-white mb-8 uppercase"
+              style={{ 
+                fontFamily: '"Clash Display", system-ui, sans-serif',
+                fontSize: '40px',
+                fontWeight: 600,
+                lineHeight: '30px',
+                letterSpacing: '-1.3px'
+              }}
               variants={fadeInUp}
               custom={0.2}
             >
@@ -35,7 +52,13 @@ export default function About() {
 
             {/* Description */}
             <motion.p
-              className="text-[#e8e8e8] text-lg leading-relaxed mb-12"
+              className="text-[#e8e8e8] mb-12"
+              style={{ 
+                fontFamily: '"Inter Display", system-ui, sans-serif',
+                fontSize: '18px',
+                fontWeight: 500,
+                lineHeight: '22px'
+              }}
               variants={fadeInUp}
               custom={0.4}
             >
@@ -45,7 +68,12 @@ export default function About() {
             {/* Download Resume Button */}
             <motion.a
               href={siteConfig.resumeUrl}
-              className="inline-flex items-center space-x-3 bg-white text-black px-8 py-4 rounded-full font-semibold hover:bg-[#e8e8e8] transition-colors duration-300 group"
+              className="inline-flex items-center space-x-3 bg-white text-black px-8 py-4 rounded-full hover:bg-[#e8e8e8] transition-colors duration-300 group"
+              style={{ 
+                fontFamily: '"Inter Display", system-ui, sans-serif',
+                fontSize: '16px',
+                fontWeight: 500
+              }}
               variants={fadeInUp}
               custom={0.6}
             >

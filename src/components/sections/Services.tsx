@@ -15,14 +15,31 @@ export default function Services() {
             viewport={viewportOnce}
             variants={slideInLeft}
           >
-            <div className="text-[#888888] text-sm uppercase tracking-widest mb-2">
+            <div className="text-[#888888] uppercase tracking-widest mb-2"
+                 style={{ 
+                   fontFamily: '"Inter Display", system-ui, sans-serif',
+                   fontSize: '12px',
+                   fontWeight: 400
+                 }}>
               //Services
             </div>
-            <div className="text-[#888888] text-lg">Fast Delivery</div>
+            <div className="text-[#888888]"
+                 style={{ 
+                   fontFamily: '"Inter Display", system-ui, sans-serif',
+                   fontSize: '16px',
+                   fontWeight: 500
+                 }}>Fast Delivery</div>
           </motion.div>
 
           <motion.h2
-            className="text-4xl md:text-6xl lg:text-7xl font-black text-white uppercase tracking-tight"
+            className="text-white uppercase"
+            style={{ 
+              fontFamily: '"Clash Display", system-ui, sans-serif',
+              fontSize: '40px',
+              fontWeight: 600,
+              lineHeight: '30px',
+              letterSpacing: '-1.3px'
+            }}
             initial="hidden"
             whileInView="visible"
             viewport={viewportOnce}
@@ -48,10 +65,23 @@ export default function Services() {
               custom={index * 0.1}
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between space-y-2 md:space-y-0">
-                <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white group-hover:text-[#e8e8e8] transition-colors duration-300">
+                <h3 className="text-white group-hover:text-[#e8e8e8] transition-colors duration-300"
+                    style={{ 
+                      fontFamily: '"Clash Display", system-ui, sans-serif',
+                      fontSize: '32px',
+                      fontWeight: 600,
+                      lineHeight: '30px',
+                      letterSpacing: '-1.3px'
+                    }}>
                   {service.title}
                 </h3>
-                <p className="text-[#888888] text-lg group-hover:text-[#aaaaaa] transition-colors duration-300 md:text-right">
+                <p className="text-[#888888] group-hover:text-[#aaaaaa] transition-colors duration-300 md:text-right"
+                   style={{ 
+                     fontFamily: '"Inter Display", system-ui, sans-serif',
+                     fontSize: '18px',
+                     fontWeight: 500,
+                     lineHeight: '22px'
+                   }}>
                   {service.subtitle}
                 </p>
               </div>
@@ -71,10 +101,21 @@ export default function Services() {
           variants={fadeInUp}
           custom={0.8}
         >
-          <p className="text-[#888888] text-lg mb-8">
+          <p className="text-[#888888] mb-8"
+             style={{ 
+               fontFamily: '"Inter Display", system-ui, sans-serif',
+               fontSize: '18px',
+               fontWeight: 500,
+               lineHeight: '22px'
+             }}>
             Ready to bring your vision to life? Let's discuss your project.
           </p>
-          <button className="inline-flex items-center space-x-3 bg-white text-black px-8 py-4 rounded-full font-semibold hover:bg-[#e8e8e8] transition-colors duration-300 group">
+          <button className="inline-flex items-center space-x-3 bg-white text-black px-8 py-4 rounded-full hover:bg-[#e8e8e8] transition-colors duration-300 group"
+                  style={{ 
+                    fontFamily: '"Inter Display", system-ui, sans-serif',
+                    fontSize: '16px',
+                    fontWeight: 500
+                  }}>
             <span>Get Started</span>
             <svg
               width="20"

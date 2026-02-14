@@ -20,7 +20,14 @@ export default function Hero() {
           variants={fadeInUp}
           custom={0.2}
         >
-          <h1 className="text-[12rem] md:text-[16rem] lg:text-[20rem] font-black tracking-[-0.08em] text-white leading-none">
+          <h1 className="hero-title text-[20rem] md:text-[24rem] lg:text-[25rem] text-white clamp(10rem,20vw,25rem)" 
+              style={{ 
+                fontFamily: '"Clash Display", system-ui, sans-serif',
+                fontWeight: 600,
+                lineHeight: 0.8,
+                letterSpacing: '-3px',
+                fontSize: 'clamp(10rem, 20vw, 25rem)'
+              }}>
             GREYO
           </h1>
         </motion.div>
@@ -47,10 +54,20 @@ export default function Hero() {
                 {badge.icon}
               </motion.div>
               <div>
-                <div className="text-[#888888] text-xs uppercase tracking-wider">
+                <div className="text-[#888888] uppercase tracking-wider" 
+                     style={{ 
+                       fontFamily: '"Inter Display", system-ui, sans-serif',
+                       fontSize: '12px',
+                       fontWeight: 400
+                     }}>
                   {badge.label}
                 </div>
-                <div className="text-[#e8e8e8] text-sm font-medium">
+                <div className="text-[#e8e8e8]" 
+                     style={{ 
+                       fontFamily: '"Inter Display", system-ui, sans-serif',
+                       fontSize: '14px',
+                       fontWeight: 500
+                     }}>
                   {badge.value}
                 </div>
               </div>

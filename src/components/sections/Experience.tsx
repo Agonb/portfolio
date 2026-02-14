@@ -22,14 +22,31 @@ export default function Experience() {
             viewport={viewportOnce}
             variants={slideInLeft}
           >
-            <div className="text-[#888888] text-sm uppercase tracking-widest mb-2">
+            <div className="text-[#888888] uppercase tracking-widest mb-2"
+                 style={{ 
+                   fontFamily: '"Inter Display", system-ui, sans-serif',
+                   fontSize: '12px',
+                   fontWeight: 400
+                 }}>
               //Experience
             </div>
-            <div className="text-[#888888] text-lg">2013 - Present</div>
+            <div className="text-[#888888]"
+                 style={{ 
+                   fontFamily: '"Inter Display", system-ui, sans-serif',
+                   fontSize: '16px',
+                   fontWeight: 500
+                 }}>2013 - Present</div>
           </motion.div>
 
           <motion.h2
-            className="text-4xl md:text-6xl lg:text-7xl font-black text-white uppercase tracking-tight"
+            className="text-white uppercase"
+            style={{ 
+              fontFamily: '"Clash Display", system-ui, sans-serif',
+              fontSize: '40px',
+              fontWeight: 600,
+              lineHeight: '30px',
+              letterSpacing: '-1.3px'
+            }}
             initial="hidden"
             whileInView="visible"
             viewport={viewportOnce}
